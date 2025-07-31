@@ -44,7 +44,7 @@ If you're using the fallback schema feature via local server (`localhost:5000`):
 
 ```bash
 # from backend folder
-npm run start
+node server.js
 ```
 
 Otherwise, make sure you're using valid Apify API access to retrieve live schemas.
@@ -52,7 +52,7 @@ Otherwise, make sure you're using valid Apify API access to retrieve live schema
 ### 4. **Start the React app**
 
 ```bash
-npm start
+npm run dev
 ```
 
 It will open at: [http://localhost:5173](http://localhost:5173)
@@ -65,7 +65,6 @@ It will open at: [http://localhost:5173](http://localhost:5173)
 | ---------------------- | ----------------------------------------------------------------------------------------------------- |
 | **Step-based UI**      | Used a simple linear stepper (`API Key → Actor Selection → Input & Output`) for clarity and better UX |
 | **Schema Fetching**    | If live schema fails (e.g., actor is private or non-existent), fallback to local dummy schema         |
-| **Output Display**     | Only displays simple JSON items from actor run (logs or results) to keep UI minimal                   |
 | **Single Page Output** | Combined input and output in Step 3 for smoother UX and less scrolling/navigation                     |
 | **Actor Format**       | Actor ID must follow `username~actorname` convention (as required by Apify API)                       |
 
@@ -126,3 +125,5 @@ It will open at: [http://localhost:5173](http://localhost:5173)
 ## 📩 Contact
 
 For any issues or feedback, feel free to reach out!
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/preya-shah-93992b284)
+[![Email](https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail)](mailto:preyashah2512@gmail.com)
